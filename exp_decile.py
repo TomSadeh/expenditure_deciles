@@ -127,7 +127,7 @@ def load_data(file, p, i=None):
     return pd.read_csv(p / (file + ".csv"), index_col=i)
 
 # Set the path to the data directory and load the decile limits data.
-path = Path(".\data")
+path = Path("./data")
 data = load_data('limits', path, i='p')
 
 # Creating custom HTML to make the text in the app right-aligned.
