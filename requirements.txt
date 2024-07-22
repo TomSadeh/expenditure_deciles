@@ -1,0 +1,6 @@
+pandas
+numpy
+streamlit
+matplotlib
+pathlib
+st_social_media_links
