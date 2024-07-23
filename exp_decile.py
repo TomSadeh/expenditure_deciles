@@ -243,7 +243,7 @@ with tab1:
                                                  step=10,
                                                  label_visibility='collapsed')
                 # Calculate expenditure per person and find the corresponding decile for each category.
-                exp_pp = exp_input[inp[1]] / persons
+                exp_pp = exp_input[inp[1]] / nefesh_btl(persons)
                 decile[inp[1]] = data.index[data[inp[1]] == find_nearest(data[inp[1]], exp_pp)]
         
         if isinstance(inp, tuple):
