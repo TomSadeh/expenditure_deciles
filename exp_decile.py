@@ -269,7 +269,7 @@ with tab2:
     st.markdown("<div style='text-align: right;'>יאללה, לדרך. בחרו בלשונית 'מחשבון עשירוני הוצאה' כדי להתחיל.</div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'></div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'></div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: right;'>מבוסס על סקר הוצאות משק הבית 2022 של הלשכה המרכזית לסטטיסטיקה</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: right;'>מבוסס על סקר הוצאות משק הבית 2022 של הלשכה המרכזית לסטטיסטיקה.</div>", unsafe_allow_html=True)
 # Add some spacing and display social media links.
 st.markdown(" ") 
 st.markdown("<div style='text-align: center;'>מצאו אותי כאן</div>", unsafe_allow_html=True)
