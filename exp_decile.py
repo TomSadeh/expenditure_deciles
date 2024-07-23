@@ -213,7 +213,7 @@ with tab1:
                                          step=100,
                                          label_visibility='collapsed')
         # Calculate expenditure per person and find the corresponding decile.
-        exp_pp = exp_input / persons
+        exp_pp = exp_input / nefesh_btl(persons)
         decile = data.index[data[inp] == find_nearest(data[inp], exp_pp)]
         text_decile = "עשירון הוצאה כוללת"
         # Display the decile result.
