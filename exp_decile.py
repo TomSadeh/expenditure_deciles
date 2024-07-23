@@ -267,7 +267,9 @@ with tab2:
     st.markdown("<div style='text-align: right;'>עשירון בקטגוריית הוצאה מוגדר לפי ההוצאה בקטגורייה הזו של משק הבית, חלקי הנפשות התקניות שבו, כאשר עשירון 1 הוא הכי נמוך ועשירון 10 הכי גבוה.</div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'></div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'>יאללה, לדרך. בחרו בלשונית 'מחשבון עשירוני הוצאה' כדי להתחיל.</div>", unsafe_allow_html=True)
-    
+    st.markdown("<div style='text-align: right;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: right;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: right;'>מבוסס על סקר הוצאות משק הבית 2022 של הלשכה המרכזית לסטטיסטיקה</div>", unsafe_allow_html=True)
 # Add some spacing and display social media links.
 st.markdown(" ") 
 st.markdown("<div style='text-align: center;'>מצאו אותי כאן</div>", unsafe_allow_html=True)
