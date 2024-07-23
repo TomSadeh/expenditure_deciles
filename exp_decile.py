@@ -259,7 +259,7 @@ with tab1:
 with tab2:
     # Provide explanations and instructions about the expenditures to consider and how the deciles are defined.
     st.markdown("<div style='text-align: right;'>אילו הוצאות להחשיב?</div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: right;>'החשיבו את כל ההוצאות השנתיות של משק הבית שלכם, ללא חיסכון, הלוואות או משכנתה, וחלקו אותן ב-12 לקבלת הוצאה חודשית.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: right;'>החשיבו את כל ההוצאות השנתיות של משק הבית שלכם, ללא חיסכון, הלוואות או משכנתה, וחלקו אותן ב-12 לקבלת הוצאה חודשית.</div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'>במקום המשתכנתה הניחו שהייתם משלמים שכר דירה על הדירה בבעלותכם למישהו אחר.</div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'>באותו האופן, החשיבו הוצאה שאחר משלם עליכם באופן קבוע כאילו זו הוצאה שלכם, כמו למשל רכב חברה, סיבוס וכו'.</div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: right;'></div>", unsafe_allow_html=True)
