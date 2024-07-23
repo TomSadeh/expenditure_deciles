@@ -42,8 +42,7 @@ mbs = pd.read_csv(r"C:\Backup\CBS Households Expenditures Survey\famexp_2022\H20
 mbs.columns = mbs.columns.str.lower()
 
 # Creating an empty DataFrame to contain the results of the deciles limits.
-results = {'limits' : pd.DataFrame(index=np.round(np.arange(0.1,1,step=0.1), 1)),
-           'averages' : pd.DataFrame(index=np.arange(1,11))}
+results = {'limits' : pd.DataFrame(index=np.round(np.arange(0.1,1,step=0.1), 1))}
 
 # Calculating the limits of each category.
 results['limits'] = dsw(mbs.loc[:, 'c3' : 'c39'].div(mbs['nefeshstandartit'], axis=0), 
